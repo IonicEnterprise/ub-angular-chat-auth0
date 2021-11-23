@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styles: [],
 })
 export class AppComponent {
-  title = "angular-marketplace-start";
+  title = "UberBooty  Chat App";
 }
