@@ -4,12 +4,17 @@ import { RouterModule, Routes } from "@angular/router";
 
 import { InvalidComponent } from "./home/invalid.component";
 import { NotLoginMessageComponent } from "./account/not-login-message.component";
+import { LoginComponent } from './account/login.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
   {
     path: "notlogin",
     component: NotLoginMessageComponent,
+  },
+  {
+    path: "/login",
+    component: LoginComponent,
   },
   {
     path: "**",
