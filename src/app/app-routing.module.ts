@@ -13,7 +13,7 @@ const routes: Routes = [
     component: NotLoginMessageComponent,
   },
   {
-    path: "/login",
+    path: "login",
     component: LoginComponent,
   },
   {
